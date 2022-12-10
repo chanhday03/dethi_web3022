@@ -1,0 +1,165 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Duepuntozero ;
+    box-sizing: border-box;
+}
+text{
+    font-family: Duepuntozero ;
+    src: url(./font/UTM\ Duepuntozero.ttf);
+}
+@font-face {
+    font-family: Duepuntozero ;
+    src: url(./font/UTM\ Duepuntozero.ttf);
+}
+body{
+    padding: 0px 30px;
+    background-color : #faf4fa;
+}
+img{
+    /* object-fit: cover; */
+    width: 100%;
+}
+/*  */
+header{
+    background-color:#011e34 ;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu ul{
+    display: flex;
+    gap: 20px;
+}
+li{
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:active{
+    color: red;
+}
+form input{
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+form button{
+    margin-left: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid white;
+    padding: 5px;
+    background-color: red;
+    color: white;
+}
+/* main */
+main{
+    background-color: faf4fa;
+}
+.logo{
+    background: white;
+
+}
+.logo .draw-logo{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.logo .triangle-1{
+    display: inline-block;
+    height: 0;
+    width: 0;
+    background-color: white;
+    text-align: center;
+    border-bottom: 45px solid white;
+    border-right: 100px solid #025ead ;
+    border-top: 45px solid white;
+} 
+.logo .triangle-2 {
+    display: inline-block;
+    height: 0;
+    width: 0;
+    background-color: white;
+    text-align: center;
+    border-bottom: 45px solid white;
+    border-left: 100px solid #011e34;
+    border-top: 45px solid white;
+}
+.logo .name-shop{
+    text-align: center;
+}
+.logo .name-shop a{
+    color: #011e34;
+    font-size: 30px;
+    font-weight: bold;
+}
+.logo .name-shop a:hover{
+    color: red;
+}
+/* --------------------box------------------ */
+.box .list-box{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.box{
+    margin: 20px 0px;
+    background-color: white;
+    border: 2px solid #ebebeb;
+    border-radius: 5px;
+}
+.list-box{
+    padding: 15px 10px;
+}
+.item-box{
+    background-color: white;
+    padding: 10px;
+    border: 1.5px solid #ebebeb;
+}
+.item-box{
+    text-align: center;
+}
+.item-box a{
+    color: black;
+}
+.item-box a:hover{
+    color: red;
+}
+.item-box .name p::first-letter{
+        color: black;
+        font-weight: 900;
+        font-size: 20px;
+}
+.item-box img{
+    overflow: hidden;
+    object-fit: cover;
+    width: 80%;
+    height: auto;
+    position: relative;
+    margin: 10px 0px;
+}
+.item-box img:hover{
+    transform: scale(1.5);
+    opacity: 1;
+    transition: 1.5s;
+}
+.item-box .price {
+    color: red;
+}
+
+/* footer */
+footer {
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px 0px;
+    background-color:#011e34 ;
+    color: white;
+}
